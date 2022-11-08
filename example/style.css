@@ -1,0 +1,56 @@
+
+/* 
+ * MYSQL Connector
+ * v 0.1
+ * created Dmitry Kholostov
+ * https://github.com/dkh-gh/mysql_connector
+ */
+
+body {
+	background: #333;
+	margin: 45px;
+	color: #eee;
+	font-family: monospace;
+	font-size: 20px;
+}
+
+
+form {
+	padding: 30px 0;
+}
+input {
+	display: block;
+	margin: 0;
+	padding: 12px;
+	background-color: #3a3a3a;
+	border: 1px solid #292929;
+	outline: none;
+
+	color: #eee;
+	font-family: sans-serif;
+	font-size: 20px;
+	box-sizing: border-box;
+	width: 300px;
+	height: auto;
+}
+input:hover {
+	background: #464646;
+}
+.info {
+	word-break: break-word;
+}
+
+.cursor2 {
+	position: absolute;
+	width: 11px; height: 18px;
+	left: 10px; top: 10px;
+	background-image: url(cursor.svg);
+	/*background-position: -3px -4px;*/
+	background-repeat: no-repeat;
+	transition: .5s;
+	transition-timing-function: ease-out;
+}
+	.cursor2 span {
+		font-size: 12px;
+		padding: 18px;
+	}
